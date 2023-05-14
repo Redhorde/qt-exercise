@@ -8,7 +8,6 @@ class User_model
 private:
     std::string Name;
     std::string Surname;
-    // TODO change string to a struct of predefined roles
     std::string Role;
 public:
     User_model(std::string name, std::string surname, std::string role);

@@ -13,6 +13,7 @@ class Add_value : public QDialog
 
 public:
     explicit Add_value(QWidget *parent = nullptr);
+    std::vector<QString> GetValues();
     ~Add_value();
 
 private:
